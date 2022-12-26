@@ -1,0 +1,9 @@
+[Unit]
+Description=Run dotascraper every 30 minutes
+
+[Timer]
+OnCalendar=*-*-* *:00,30:00
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

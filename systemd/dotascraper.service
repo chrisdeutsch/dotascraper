@@ -1,0 +1,7 @@
+[Unit]
+Description=Scrapes matches from OpenDOTA
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/chris/dotascraper/run.sh
