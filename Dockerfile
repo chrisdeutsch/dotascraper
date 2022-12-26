@@ -12,4 +12,4 @@ RUN : \
 
 COPY dotascraper.py /usr/bin/
 
-CMD ["dotascraper.py"]
+CMD ["dotascraper.py", "/data/test.json.gz", "-n", "2"]
